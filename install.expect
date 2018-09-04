@@ -1,0 +1,9 @@
+#!/usr/bin/expect
+spawn ./iTMSTransporter_installer_linux_1.10.0.sh
+expect "More"
+send "q\n"
+expect "\[yes or no\]"
+send "yes\n"
+expect "\[yes or no\]"
+send "yes\n"
+expect off
